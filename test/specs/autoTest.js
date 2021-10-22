@@ -1,5 +1,3 @@
-// const Page = require('../pageobjects/GooglePage');
-// const GooglePage = new Page();
 const assert = require('assert');
 
 
