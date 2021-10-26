@@ -33,6 +33,7 @@ describe('TaskTest', () => {
 
         const Info = await $("//*[@id='view_container']/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div[1]/a");
         await Info.click();
+        await browser.url('https://support.google.com/accounts/answer/7675428?hl=ru');
 
         //await browser.debug();
 
